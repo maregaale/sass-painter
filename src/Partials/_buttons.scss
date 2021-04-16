@@ -4,15 +4,27 @@
     font-weight: bolder;
     font-size: $fontNormal;
     color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
 
     &.empty {
         background-color: transparent;
         border: 2px solid #fff;
         margin-right: 15px;
+
+        &:hover {
+            background-color: #fff;
+            color: black;
+        }
     }
 
     &.blue {
         background-color: $colorPrimaryBlue;
         border: 2px solid $colorPrimaryBlue;
+
+        &:hover {
+            background-color: $colorSecondaryBlue;
+            border-color: $colorSecondaryBlue;
+        }
     }
 }

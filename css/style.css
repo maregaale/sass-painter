@@ -56,6 +56,7 @@ header .container i {
   left: 50%;
   transform: translateX(-50%);
   font-size: 50px;
+  cursor: pointer;
 }
 
 .btn {
@@ -64,13 +65,23 @@ header .container i {
   font-weight: bolder;
   font-size: 18px;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .btn.empty {
   background-color: transparent;
   border: 2px solid #fff;
   margin-right: 15px;
 }
+.btn.empty:hover {
+  background-color: #fff;
+  color: black;
+}
 .btn.blue {
   background-color: #1473e6;
   border: 2px solid #1473e6;
+}
+.btn.blue:hover {
+  background-color: #0d66d0;
+  border-color: #0d66d0;
 }
