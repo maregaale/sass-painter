@@ -4,12 +4,73 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+.container.container_small {
+  max-width: 900px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+h2 {
+  color: #2c2c2c;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+  margin: 30px 0;
+}
+
 header {
   background-color: red;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 700px;
   width: 100%;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+header .container > img {
+  width: 60px;
+}
+header .container i {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+}
+.btn.empty {
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 15px;
+}
+.btn.blue {
+  background-color: #1473e6;
+  border: 2px solid #1473e6;
 }

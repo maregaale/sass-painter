@@ -1,0 +1,18 @@
+.btn {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-weight: bolder;
+    font-size: $fontNormal;
+    color: #fff;
+
+    &.empty {
+        background-color: transparent;
+        border: 2px solid #fff;
+        margin-right: 15px;
+    }
+
+    &.blue {
+        background-color: $colorPrimaryBlue;
+        border: 2px solid $colorPrimaryBlue;
+    }
+}

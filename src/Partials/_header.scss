@@ -1,0 +1,29 @@
+header {
+    background-color: red;
+    background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+    background-position: top;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+
+
+    .container {
+
+        > img {
+            width: 60px;
+        }
+
+        i {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 50px;
+        }
+    }
+}
