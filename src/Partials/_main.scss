@@ -1,0 +1,23 @@
+main {
+    #features {
+        .container {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+            margin-bottom: 80px;
+
+
+            &:nth-child(2n) {
+                flex-direction: row-reverse;
+            }
+
+            img {
+                width: 55%;
+                margin: 0 30px;
+            }
+        }
+        
+    }
+
+
+}
