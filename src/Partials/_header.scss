@@ -12,19 +12,23 @@ header {
     position: relative;
 
 
+    a{
+        width: 40px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        img {
+            width: 100%;
+        }
+    }
+    
     .container {
 
         > img {
             width: 60px;
         }
 
-        i {
-            position: absolute;
-            bottom: 50px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 50px;
-            cursor: pointer;
-        }
     }
 }
